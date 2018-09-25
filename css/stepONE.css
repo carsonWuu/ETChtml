@@ -1,0 +1,198 @@
+
+    	*{
+    		margin:0;
+    		padding:0;
+    	}
+    	body{
+    		margin:0;
+    		padding:0;
+    		width:100%;
+            height:100%;
+    	}
+        a{
+            text-decoration: none;
+            color:gray;
+        }
+         label{
+            padding-right:5%;
+            letter-spacing: 200px
+            word-spacing: 0;
+        }
+        
+        input{
+            border-radius: 4px;
+            padding-left: 8px;
+            height:25px;
+            width:70%;
+        }
+        #submit{
+            border-radius: 2px;
+            width:100%;
+            background-color: green; 
+            margin-bottom: 10px;
+        }
+        .locate{
+            color:rgb(117,211,178);
+        }
+        .text-center{
+            text-align:center;
+        }
+        .text-white{
+            color:white;
+        }
+        .text-gray{
+            color:gray;
+        }
+        .text-black{
+            color:black;
+        }
+        .text-blue{
+            color:rgb(81,110,152);
+        }
+        .margin10_0_0_0{
+            margin:10px 0 0 0 ;
+        }
+    	.mainH{
+    		width:100%;
+    		background:rgb(32,38,54);
+    	}
+        .main4{
+            width:100%;
+            background:rgb(255,255,255);
+        }
+    	.head,.content{
+    		margin:0 10px;
+    	}
+    	.Hhead{
+    		text-align:center;
+            margin-bottom: 30px;
+    	}
+        .Hcontent{
+            margin:10px 0 0 0 ;
+        }
+
+    	.left{
+    		float:left;
+    		display:inline ;
+
+    	}
+
+    	.right{
+    		float:right;
+    	}
+    	.clear{
+    		clear:both;
+    	}
+    	.fifth {
+    		width:20%;
+
+    	}
+    	.step{
+    		width:100%;
+    		height:80px;
+    	}
+        .margin20_0_10_0{
+            margin:20px 0 10px 0;
+        }
+    	.IDcard{
+    		margin:10px 0 0 0 ;
+    		padding:0 10px;
+    		border-left: solid 3px rgb(19,202,142);
+    	}
+    	.pic{
+    		width:45%;
+    	}
+        .privateProtect{
+            color:rgb(44,149,213);
+        }
+    	.picture{
+    		width:100%;
+    		height:auto;
+    	}
+    	.Tencent{
+    		margin:10px 0 0 0;
+    	}
+    	.tencent1,.tencent2{
+    		padding:0;
+    		margin:0;
+    		text-align:center;
+    	}
+    	.certificate{
+    		margin:10px 0 10px 0;
+
+    	}
+    	.message{
+    		margin:20px 0 20px 0;
+            padding:0;
+            width:100%;
+    	}
+    	.text-justify{
+    		float:left;
+    		text-align:justify;
+    		text-justify:inter-word;
+    		text-justify:inter-ideograph;
+    		width:20%;
+    		height:20px;
+    		
+    	}
+        .span-justify{
+        	display:inline-block;
+        	width:100%;
+        }
+       
+        
+
+        .font6{
+            font-size: 13px;
+            margin-top:10px;
+        }
+        .font5{
+            font-size: 15px;
+            margin-top:10px;
+
+        }
+        .font1{
+            font-size:18px;
+            font-weight:540; 
+        }
+        .borderNONE{
+            border:none;
+            outline:none;
+        }
+        .borderBOTTOM{
+            padding-bottom:10px;
+            border-bottom:1px solid rgb(200,200,200);
+
+        }
+        .borderBOTTOM225{
+            padding-bottom:25px;
+            border-bottom:1px solid rgb(225,225,225);
+
+        }
+        .col-2-sm{
+            width:20%;
+
+        }
+        .col-2-lg{
+            width:70%;
+            /*padding-left:10px;*/
+        }
+
+        .submit{
+
+            /*bottom:0px;
+            position: absolute; 
+            clear:both; */
+            /*margin-top:30px;*/
+            padding:30px;
+            height:100%;
+
+        }
+        .background247{
+            background-color: rgb(247,247,247);
+        }
+        
+        
+        
+    
+
