@@ -25,12 +25,7 @@
             height:25px;
             width:70%;
         }
-        #submit{
-            border-radius: 2px;
-            width:100%;
-            background-color: green; 
-            margin-bottom: 10px;
-        }
+        
         .locate{
             color:rgb(117,211,178);
         }

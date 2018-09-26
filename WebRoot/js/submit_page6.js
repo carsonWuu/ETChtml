@@ -5,6 +5,6 @@ $("#submit").click(function(){
 	console.log(username+idcard);
 	
     $.ajax({url:"data",success:function(result){
-    	window.location.href='/ETCweChat/page3.html';
+    	window.location.href='/ETCweChat/page7.html';
     }});
 });
