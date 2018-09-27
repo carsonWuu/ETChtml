@@ -1,5 +1,6 @@
 package com.test;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
@@ -47,24 +48,46 @@ public class servlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		
-		DiskFileItemFactory factory = new DiskFileItemFactory(); 
-		ServletFileUpload upload = new ServletFileUpload(factory); 
-		upload.setHeaderEncoding("UTF-8");
-		List items = null;
-		try {
-			items = upload.parseRequest(request);
-		} catch (FileUploadException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		Map param = new HashMap(); 
-		for(Object object:items){
-		    FileItem fileItem = (FileItem) object; 
-		    if (fileItem.isFormField()) { 
-		        param.put(fileItem.getFieldName(), fileItem.getString("utf-8"));//如果你页面编码是utf-8的 
-		    }
-		}
-		System.out.println(param.get("username"));
+		DiskFileItemFactory factory = new DiskFileItemFactory();
+		ServletFileUpload upload = new ServletFileUpload(factory);
+
+		    
+		        List<FileItem> items = null;
+				try {
+					items = upload.parseRequest(request);
+				} catch (FileUploadException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		        System.out.println("1:=========" + items.size());
+		        Map param = new HashMap();
+		        for (Object object : items) {
+		            FileItem fileItem = (FileItem) object;
+		            System.out.println("2:=========" + fileItem.toString());
+		            System.out.println("3：fileItem.getFieldName():==" + fileItem.getFieldName());
+
+		            if (fileItem.isFormField()) {
+		                param.put(fileItem.getFieldName(),
+		                        fileItem.getString("utf-8"));// 如果你页面编码是utf-8的
+		                System.out.println("4: param.get(fileItem.getFieldName())==="
+		                        + param.get(fileItem.getFieldName()));
+		            } else {
+
+		                String picturename =fileItem.getName();
+
+		                String path = "D:\\temp\\" + picturename;
+		                System.out.println("======================="+path+"==========");
+		                
+		                try {
+							fileItem.write(new File(path));
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+		            }
+		        }
+		    
+		    
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		
