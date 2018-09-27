@@ -13,6 +13,13 @@
     <url-pattern>/data</url-pattern>
   </servlet-mapping>
   
-  
+  <servlet>
+    <servlet-name>imgUpload</servlet-name>
+    <servlet-class>com.test.servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>imgUpload</servlet-name>
+    <url-pattern>/imgUpload</url-pattern>
+  </servlet-mapping>
   
 </web-app>

@@ -1,0 +1,125 @@
+
+    	*{
+    		margin:0;
+    		padding:0;
+    	}
+    	body{
+    		margin:0;
+    		padding:0;
+    		width:100%;
+            height:100%;
+    	}
+        a{
+            text-decoration: none;
+            color:gray;
+        }
+         label{
+            padding-right:5%;
+            letter-spacing: 200px
+            word-spacing: 0;
+        }
+        
+        input{
+            border-radius: 4px;
+            padding-left: 8px;
+            height:25px;
+            width:70%;
+        }
+        #submit{
+            border-radius: 2px;
+            width:100%;
+            background-color: green; 
+            margin-bottom: 10px;
+        }
+        
+        
+        .margin10_0_0_0{
+            margin:10px 0 0 0 ;
+        }
+    	
+
+        .mainH{
+            width:100%;
+            background:rgb(255,255,255);
+        }
+    	.head,.mainC{
+    		margin:0 30px 40px 30px;
+    	}
+    	.Hhead{
+    		text-align:center;
+            margin-bottom: 50px;
+    	}
+        
+       
+       
+    	.message{
+    		margin:20px 0 20px 0;
+            padding:0;
+            width:100%;
+    	}
+        .paddingB20{
+            padding-bottom: 20px;
+        }
+    	.text-justify{
+    		float:left;
+    		text-align:justify;
+    		text-justify:inter-word;
+    		text-justify:inter-ideograph;
+    		width:20%;
+    		height:20px;
+    		
+    	}
+        .span-justify{
+        	display:inline-block;
+        	width:100%;
+        }
+       
+      
+        .borderNONE{
+            border:none;
+            outline:none;
+        }
+        
+        .borderBOTTOM225{
+            padding-bottom:25px;
+            border-bottom:1px solid rgb(225,225,225);
+
+        }
+        .col-2-sm{
+            width:20%;
+
+        }
+        .col-2-lg{
+            width:70%;
+            /*padding-left:10px;*/
+        }
+
+        .submit{
+
+            /*bottom:0px;
+            position: absolute; 
+            clear:both; */
+            /*margin-top:30px;*/
+            padding-top:5px;
+            margin: 0 10px;
+           
+
+        }
+        .background247{
+            background-color: rgb(247,247,247);
+        }
+
+        .footer{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 20px;  
+        }
+        .paymengBook{
+        	color:rgb(86,92,123);
+        }
+        
+        
+        
+    
+

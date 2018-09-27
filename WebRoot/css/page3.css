@@ -25,10 +25,11 @@
             height:25px;
             width:70%;
         }
-       
+        
         .locate{
             color:rgb(117,211,178);
         }
+      
         .margin10_0_0_0{
             margin:10px 0 0 0 ;
         }
@@ -36,9 +37,9 @@
     		width:100%;
     		background:rgb(32,38,54);
     	}
-       
+        
     	.head,.content{
-    		margin:0 30px;
+    		margin:0 10px;
     	}
     	.Hhead{
     		text-align:center;
@@ -60,6 +61,153 @@
     	.clear{
     		clear:both;
     	}
+    	.fifth {
+    		width:20%;
+
+    	}
+    	.step{
+    		width:100%;
+    		height:80px;
+    	}
+        .margin20_0_10_0{
+            margin:20px 0 10px 0;
+        }
+    	.IDcard{
+    		margin:10px 0 0 0 ;
+    		padding:0 10px;
+    		border-left: solid 3px rgb(19,202,142);
+    	}
+    	.pic{
+    		width:45%;
+    	}
+        .privateProtect{
+            color:rgb(44,149,213);
+        }
+        .paymengBook{
+            color:rgb(93,102,122);
+        }
+    	.picture{
+    		width:100%;
+    		height:auto;
+    	}
+    	.Tencent{
+    		margin:10px 0 0 0;
+    	}
+    	.tencent1,.tencent2{
+    		padding:0;
+    		margin:0;
+    		text-align:center;
+    	}
+    	.certificate{
+    		margin:10px 0 10px 0;
+
+    	}
+    	.message{
+    		margin:20px 0 20px 0;
+            padding:0;
+            width:100%;
+    	}
+    	.text-justify{
+    		float:left;
+    		text-align:justify;
+    		text-justify:inter-word;
+    		text-justify:inter-ideograph;
+    		width:20%;
+    		height:20px;
+    		
+    	}
+        .span-justify{
+        	display:inline-block;
+        	width:100%;
+        }
+       
+        
+
+        .font6{
+            font-size: 13px;
+            margin-top:10px;
+        }
+        .font5{
+            font-size: 15px;
+            margin-top:10px;
+
+        }
+        .font1{
+            font-size:18px;
+            font-weight:540; 
+        }
+        .borderNONE{
+            border:none;
+            outline:none;
+        }
+        .borderBOTTOM{
+            padding-bottom:10px;
+            border-bottom:1px solid rgb(239,239,239);
+
+        }
+        .borderBOTTOM225{
+            padding-bottom:25px;
+            border-bottom:1px solid rgb(225,225,225);
+
+        }
+        .col-2-sm{
+            width:20%;
+
+        }
+        .col-2-lg{
+            width:70%;
+            /*padding-left:10px;*/
+        }
+
+        .submit{
+
+            /*bottom:0px;
+            position: absolute; 
+            clear:both; */
+            /*margin-top:30px;*/
+            /*padding-bottom: 10px;*/
+            height:100%;
+
+        }
+        .marginLR10{
+            margin:0 10px;
+        }
+        .background247{
+            background-color: rgb(247,247,247);
+        }
+        .background239{
+             background-color: rgb(239,239,239);
+        }
+        .footer{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 20px;
+            
+            
+        }
+        
+    	
+        .margin10_0_0_0{
+            margin:10px 0 0 0 ;
+        }
+    	.mainH{
+    		width:100%;
+    		background:rgb(32,38,54);
+    	}
+       
+    	.head,.content{
+    		margin:0 30px;
+    	}
+    	.Hhead{
+    		text-align:center;
+            margin-bottom: 30px;
+    	}
+        .Hcontent{
+            margin:10px 0 0 0 ;
+        }
+
+    	
     	
     	.step{
     		width:100%;
@@ -174,6 +322,12 @@
         #input_pic1,#input_pic2{
         	display:none;
         }
+        
+        
+        
+    
+
+        
         
         
         

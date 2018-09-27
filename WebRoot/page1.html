@@ -6,22 +6,24 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/page1.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/font_color.css">
+    <link rel="stylesheet" href="css/text.css">
 </head>
 <body>
 	
 	<div class="mainH">
 		<div class="head">
-			<h4 class="Hhead text-white">新卡申办</h4>
+			<h1 class="Hhead text-white">新卡申办</h1>
 			<div class="Hcontent">
 				<div class="location">
 					<div class="locate">
-						<b class="left province">广东&nbsp;</b>
-						<b class="left Yuecard">粤通卡&gt;</b>		
+						<b class="left province font1">广东&nbsp;&nbsp;</b>
+						<b class="left Yuecard font1">粤通卡&gt;</b>		
 					</div>
 					<div class="proxy text-white">
 						
-						<small class="right monthNum">&nbsp;45823</small>
-						<small class="right month">月办理量 </small>
+						<small class="right monthNum font1">&nbsp;&nbsp;45823</small>
+						<small class="right month font1">月办理量 </small>
 					</div>
 				</div>
 
@@ -35,24 +37,27 @@
 			</div>
 		</div>
 	</div>
-
+	<input type="file" id="input_pic1" onchange="picture_upload1(event)"/>
+	<input type="file" id="input_pic2" onchange="picture_upload2(event)"/>
 	<div class="mainC">
 		<div class="content">
-			<div class="margin20_0_10_0">
-				<p class="IDcard">请上传身份证&nbsp;
-					<span class="pic privateProtect">《用户隐私保护政策》</span>
+			<div class="upload">
+				<p class="IDcard font2">请上传身份证&nbsp;
+					<span id="privateProtect" class="privateProtect">《用户隐私保护政策》</span>
 				</p>
 				<p>
-					<small class="text-gray">交通部相关规定，办理ETC需提交身份证原件照片</small>
+					<small class="text-gray font3">交通部相关规定，办理ETC需提交身份证原件照片</small>
 				</p>
 			</div>
 
 			<div class="uploadPIC">
 				<div class="left pic">
-					<img src="images/pic1.png" class="picture"/>
+					
+					<img src="images/pic1.png" id="pic1" class="picture" onclick="picture_select1()"/>
+						
 				</div>
 				<div class="right pic">
-					<img src="images/pic2.png" class="picture"/>
+					<img src="images/pic2.png" id="pic2"  class="picture"  onclick="picture_select2()"/>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -119,4 +124,5 @@
 </body>
 <script type="text/javascript" src="javascript/jquery-3.2.1.js"></script>
 <script type="text/javascript" src="js/submit_page1.js"></script>
+<script type="text/javascript" src="js/page1.js"></script>
 </html>

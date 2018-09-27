@@ -30,36 +30,11 @@
             border:1px solid rgb(223,223,223); 
             margin-top:20px;
         }
-        #submit{
-            border-radius: 2px;
-            width:100%;
-            background-color: green; 
-            margin-bottom: 10px;
-        }
+       
         .locate{
             color:rgb(117,211,178);
         }
-        .text-center{
-            text-align:center;
-        }
-        .text-white{
-            color:white;
-        }
-        .text-gray{
-            color:gray;
-        }
-        .text-black{
-            color:black;
-        }
-        .text-red{
-            color:rgb(242,69,74);
-        }
-        .text-blue{
-            color:rgb(57,144,204);
-        }
-        .text-green{
-            color:rgb(9,201,143);
-        }
+        
         .margin10_0_0_0{
             margin:10px 0 0 0 ;
         }
@@ -79,18 +54,7 @@
             margin:10px 0 0 0 ;
         }
 
-    	.left{
-    		float:left;
-    		display:inline ;
-
-    	}
-
-    	.right{
-    		float:right;
-    	}
-    	.clear{
-    		clear:both;
-    	}
+    	
     	
     	.step{
     		width:100%;
