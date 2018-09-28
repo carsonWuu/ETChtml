@@ -25,7 +25,7 @@ function fileUpload(){
 	formdata.append("idcard",idcard);
 	console.log(formdata);
 	$.ajax({
-		url:'imgUpload',
+		url:'imgUpload2',
 		type:'POST',
 		cache:false,
 		data:formdata,

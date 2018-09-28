@@ -1,7 +1,10 @@
 
-    	*{
+    	*,p,span{
     		margin:0;
     		padding:0;
+    	}
+    	span{
+    	margin-top:-10px;
     	}
     	body{
     		margin:0;
@@ -30,30 +33,11 @@
             border:1px solid rgb(237,237,237); 
             margin:20px 0 0 20px;
         }
-        #submit{
-            border-radius: 2px;
-            width:100%;
-            background-color: green; 
-            margin-bottom: 10px;
-        }
+       
         .locate{
             color:rgb(117,211,178);
         }
-        .text-center{
-            text-align:center;
-        }
-        .text-white{
-            color:white;
-        }
-        .text-gray{
-            color:gray;
-        }
-        .text-black{
-            color:black;
-        }
-        .text-blue{
-            color:rgb(81,110,152);
-        }
+       
         .text-green{
             color:rgb(167,210,197);
         }
@@ -75,22 +59,8 @@
             margin-top:30px;
         }
 
-    	.left{
-    		float:left;
-    		display:inline ;
-
-    	}
-
-    	.right{
-    		float:right;
-    	}
-    	.clear{
-    		clear:both;
-    	}
-    	.fifth {
-    		width:20%;
-
-    	}
+    	
+    	
     	.card{
     		width:320px;
     		height:180px;
@@ -104,23 +74,6 @@
         
     
     	
-        .font6{
-            font-size: 13px;
-            margin-top:10px;
-        }
-        .font5{
-            font-size: 15px;
-            margin-top:10px;
-
-        }
-        .font1{
-            font-size:20px;
-            font-weight:600; 
-        }
-       
-        .text-right{
-            text-align: right;
-        }
        
        
         .ele_equip{
@@ -135,9 +88,9 @@
             background-color:rgb(236,250,245);
             margin: 20px 10px 0 10px;
             padding: 10px 10px;
-            font-size: 15px;
+           /* font-size: 15px;
             border-radius: 5px;
-            
+            */
         }
         .sche{
             margin-top:20px;

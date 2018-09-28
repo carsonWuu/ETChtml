@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
 	<welcome-file-list>
-    	<welcome-file>/html/page1.html</welcome-file>
+    	<welcome-file>page1.html</welcome-file>
   	</welcome-file-list>
-  	
   <servlet>
-    <servlet-name>main</servlet-name>
-    <servlet-class>com.test.servlet</servlet-class>
+    <servlet-name>data</servlet-name>
+    <servlet-class>com.test.servlet3</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>main</servlet-name>
+    <servlet-name>data</servlet-name>
     <url-pattern>/data</url-pattern>
   </servlet-mapping>
   
@@ -20,6 +19,24 @@
   <servlet-mapping>
     <servlet-name>imgUpload</servlet-name>
     <url-pattern>/imgUpload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>imgUpload2</servlet-name>
+    <servlet-class>com.test.servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>imgUpload2</servlet-name>
+    <url-pattern>/imgUpload2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>imgUpload3</servlet-name>
+    <servlet-class>com.test.servlet3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>imgUpload3</servlet-name>
+    <url-pattern>/imgUpload3</url-pattern>
   </servlet-mapping>
   
 </web-app>

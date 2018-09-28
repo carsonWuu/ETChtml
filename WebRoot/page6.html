@@ -5,7 +5,7 @@
     <title>page6</title>
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/page6.css">
-    <link rel="stylesheet" href="css/font_color.css">
+    <link rel="stylesheet" href="css/font.css">
      <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/button.css">
 </head>
@@ -103,18 +103,18 @@
 		<div class="footer">
 			<div class="submit">
 				<div class="protocol">
-					<input type="checkbox" name="checkbox" value=""class="left checkbox"/>
+					<input type="checkbox" id="checkbox" name="checkbox" value="" class="left checkbox" onclick="checkboxCLICK(this)"/>
 					<p class="right font7 checkprotocol">
 						我已了解，遵守并同意&nbsp;
-						<span class="text-blue">
+						<span id="protocol_service" class="text-blue">
 							《用户服务协议》
 						</span>
 						,
-						<span class="text-blue">
+						<span id="protocol_yuetongka"  class="text-blue">
 							《粤通卡用户协议》
 						</span>
 						及
-						<span class="text-blue">
+						<span id="protocol_Eyuetongka" class="text-blue">
 							《粤通卡电子标签使用协议》
 						</span>
 					</p>
@@ -122,7 +122,7 @@
 				<div class="clear"></div>
 				<div class="centered">
 					
-					<button id="submit"  class=" button">立即付款</button>
+					<button id="submit"  class=" button"  disabled="disabled">立即付款</button>
 				</div>
 				<br>
 
@@ -138,4 +138,5 @@
 </body>
 <script type="text/javascript" src="javascript/jquery-3.2.1.js"></script>
 <script type="text/javascript" src="js/submit_page6.js"></script>
+<script type="text/javascript" src= "js/page6.js"></script>
 </html>
