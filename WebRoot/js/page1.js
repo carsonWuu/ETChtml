@@ -69,7 +69,9 @@ $(function(){
 	$("#privateProtect").on("click",function(){
 		
     	window.location.href='/ETCweChat/serviceprotocol.html';
-	})
+	});
+	
+	$('body').height($('body')[0].clientHeight);
 });
 
 

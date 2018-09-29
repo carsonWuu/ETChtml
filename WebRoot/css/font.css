@@ -1,3 +1,4 @@
+	
 		.font6{
             font-size: 13px;
             margin-top:10px;
@@ -12,14 +13,23 @@
             
         }
          .font3{
-            font-size:18.72px;
+            font-size:24px;
             
         }
         .font2{
-            font-size:24px;
+            font-size:32px;
             
         } 
         .font1{
-            font-size:32px;
+            font-size:40px;
             
         }
+        .bold{
+        	font-weight: 700;
+        }
+        *{
+    		margin:0;
+    		padding:0;
+    		letter-spacing: 2px;
+    	}
+        

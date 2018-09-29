@@ -5,7 +5,7 @@
 
 .button{
   width:100%;
-  height:45px;
+  height:80px;
   display: inline-block;
   *display: inline;
   zoom: 1;
@@ -14,7 +14,7 @@
   cursor: pointer;
   /*border: 1px solid #bbb;*/
   overflow: visible;
-  font:  18px arial, helvetica, sans-serif;
+  font:  40px arial, helvetica, sans-serif;
   text-decoration: none;
   white-space: nowrap;
   color: #fff;
@@ -89,7 +89,7 @@
 }*/
 
 .btn-height{
-  height:40px; 
+  height:80px; 
 }
 
 

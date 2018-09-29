@@ -29,9 +29,9 @@
             width:70%;
         }
         hr{
-            background-color:rgb(23,231,231);
+            background-color:rgb(231,231,231);
             border:1px solid rgb(237,237,237); 
-            margin:20px 0 0 20px;
+            margin:20px 0 30px 20px;
         }
        
         .locate{
@@ -62,14 +62,13 @@
     	
     	
     	.card{
-    		width:320px;
-    		height:180px;
+    		width:100%;
+    		
     	}
         
     	.pic{
     		width:100%;
-            height:100%;
-            
+            height:100%;        
     	}
         
     
@@ -100,6 +99,9 @@
         }
         .schedulePIC{
             width:10%;
+            
+        }
+        .pic2{
         }
         .details{
             width:90%;

@@ -1,8 +1,5 @@
 
-    	*{
-    		margin:0;
-    		padding:0;
-    	}
+    	
     	body{
     		margin:0;
     		padding:0;
@@ -63,23 +60,7 @@
     	}
         
     	
-    	
-       
         
-
-        .font6{
-            font-size: 13px;
-            margin-top:10px;
-        }
-        .font5{
-            font-size: 14px;
-            margin-top:10px;
-
-        }
-        .font1{
-            font-size:18px;
-            font-weight:540; 
-        }
         .borderNONE{
             border:none;
             outline:none;
@@ -95,6 +76,9 @@
         
         .open,.submit{
             margin-top:30px;
+        }
+        .open {
+        padding-bottom:40px;
         }
         
     
