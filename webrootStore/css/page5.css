@@ -1,0 +1,55 @@
+
+    	
+    	body{
+    		margin:0;
+    		padding:0;
+    		width:100%;
+            height:100%;
+    	}
+       
+       
+        .background-white{
+            background-color: rgb(255,255,255);
+        }
+       
+        .marginLR20{
+            margin:50px 20px 0 20px;
+        }
+    	
+
+        .mainH{
+            width:100%;
+            padding-bottom:15px;
+           
+        }
+    	
+        
+    	
+    	.pic{
+    		
+    		
+    		
+    	}
+    	.img{
+    		margin-top:30px;
+    		width:200px;
+    		height:200px;
+    	}
+        
+        
+        .background247{
+            background-color: rgb(247,247,247);
+        }
+
+        
+        
+        .submit{
+            margin-top:30px;
+        }
+        .open {
+        	padding-bottom:40px;
+        	margin-top:30px;
+        }
+        
+    
+

@@ -1,0 +1,155 @@
+
+    	
+    	body{
+    		margin:0;
+    		padding:0;
+    		width:100%;
+            height:100%;
+    	}
+        a{
+            text-decoration: none;
+            color:gray;
+        }
+         label{
+            padding-right:5%;
+            letter-spacing: 200px
+            word-spacing: 0;
+        }
+        
+        input{
+            border-radius: 4px;
+            padding-left: 8px;
+            height:60px;
+            width:70%;
+        }
+       
+        .locate{
+            color:rgb(117,211,178);
+        }
+        .margin10_0_0_0{
+            margin:10px 0 0 0 ;
+        }
+    	.mainH{
+    		width:100%;
+    		background:rgb(32,38,54);
+    	}
+       
+    	.head,.content{
+    		margin:0 30px;
+    	}
+    	.Hhead{
+    		text-align:center;
+            margin-bottom: 30px;
+    	}
+        .Hcontent{
+            margin:10px 0 0 0 ;
+        }
+
+    	
+    	
+    	.step{
+    		width:100%;
+    		height:200px;
+    		margin:30px 0 0 0;
+    		
+    	}
+    	
+    	.upload{
+    		margin:20px 0 ;
+    	}
+        .margin20_0_10_0{
+            margin:20px 0 10px 0;
+        }
+    	.IDcard{
+    		margin:10px 0 10px 0 ;
+    		padding:0px 10px;
+    		border-left: solid 8px rgb(19,202,142);
+    	}
+    	
+        .privateProtect{
+            color:rgb(44,149,213);
+            
+        }
+        .paymengBook{
+            color:rgb(93,102,122);
+        }
+    	
+    	
+    	.certificate{
+    		margin:10px 0 10px 0;
+
+    	}
+    	.message{
+    		margin:30px 0 30px 0;
+            padding:0;
+            width:100%;
+    	}
+    	.text-justify{
+    		float:left;
+    		text-align:justify;
+    		text-justify:inter-word;
+    		text-justify:inter-ideograph;
+    		width:20%;
+    		height:20px;
+    		
+    	}
+        .span-justify{
+        	display:inline-block;
+        	width:100%;
+        }
+       
+        .p{
+        	padding-right:40px;
+        	margin-top:10px;
+        }
+
+        
+        .borderNONE{
+            border:none;
+            outline:none;
+        }
+        .borderBOTTOM{
+            padding-bottom:10px;
+            border-bottom:1px solid rgb(239,239,239);
+
+        }
+        .borderBOTTOM225{
+            padding-bottom:25px;
+            border-bottom:1px solid rgb(225,225,225);
+
+        }
+       
+
+        .submit{
+
+            /*bottom:0px;
+            position: absolute; 
+            clear:both; */
+            /*margin-top:30px;*/
+            /*padding-bottom: 10px;*/
+            height:100%;
+
+        }
+        
+        
+        .footer{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 20px;
+            margin:0 30px;
+            
+        }
+        #input_pic1,#input_pic2{
+        	display:none;
+        }
+        .bigsign{
+        width:20px;
+        height:40px;
+        padding-top:10px;
+        }
+        
+        
+        
+    
+

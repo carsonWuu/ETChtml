@@ -1,0 +1,45 @@
+	
+		.font6{
+            font-size: 13px;
+            margin-top:10px;
+        }
+        .font5{
+            font-size: 15px;
+            /*margin-top:10px;*/
+
+        }
+         .font4{
+            font-size:22px;
+            
+        }
+         .font3{
+            font-size:24px;
+            font-weight:200px;
+            
+        }
+        .font2{
+            font-size:32px;
+            
+        } 
+        .font1{
+            font-size:40px;
+            
+        }
+        .bold{
+        	font-weight: 700;
+        }
+        .bold1{
+        	font-weight: 600;
+        }
+        *{
+    		margin:0;
+    		padding:0;
+    		letter-spacing: 2px;
+    	}
+    	.headgreen{
+    		color:rgb(117,211,178);
+    	}
+    	.headgray{
+    		color:rgb(213,213,213);
+    	}
+        
