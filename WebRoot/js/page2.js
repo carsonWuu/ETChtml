@@ -82,17 +82,17 @@ $(function(){
 	 */
 	var img = $("#pic1");
 	var realWidth =img.width();//alert(realWidth);
-	var realHeight = realWidth*0.75;
+	var realHeight = realWidth*0.665;
 	img.css({height:realHeight});
 	
 	img = $("#pic2");
 	realWidth =img.width();//alert(realWidth);
-	realHeight = realWidth*0.75;
+	realHeight = realWidth*0.665;
 	img.css({height:realHeight});
 	
 	img = $("#pic3");
 	realWidth =img.width();//alert(realWidth);
-	realHeight = realWidth*0.75;
+	realHeight = realWidth*0.665;
 	img.css({height:realHeight});
 	
 	

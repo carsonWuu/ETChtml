@@ -4,7 +4,13 @@ $("#submit").click(function(){
 	if(username=='')return;
 	console.log(username+idcard);
 	
-    $.ajax({url:"data",success:function(result){
-    	window.location.href='/ETCweChat/page5.html';
+    $.ajax({
+    	url:"data",
+    	beforeSend: function(){
+    		$('#bg').css({'height':$(document).height(),'width':$(document).width()});
+    		document.getElementById("bg").style.display ="block";
+		},	
+    	success:function(result){
+    	window.location.href='page5.html';
     }});
 });

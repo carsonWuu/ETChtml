@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
     <meta charset="UTF-8">
     <title>page3</title>
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/button_page3.css">
     <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-	
+
 	<div class="mainH">
 		<div class="head">
-			<h1 class="Hhead text-white">新卡申办</h1>
+			<h3 class="Hhead text-white">新卡申办</h3>
 			<div class="Hcontent">
 				<div class="location">
-					<div class="locate">
-						<b class="left province font1">广东&nbsp;&nbsp;</b>
-						<b class="left Yuecard font1">粤通卡&gt;</b>		
+					<div class="locate left ">
+						<b class="left province font1">贵州&nbsp;&nbsp;</b>
+						<b class="left Yuecard font1">黔通卡&nbsp;
+							
+						</b>
+						<img src="images/page1/bigsign.png" class="bigsign"/>		
 					</div>
-					<div class="proxy text-white">
+					<div class="right proxy text-white">
 						
-						<small class="right monthNum font1">&nbsp;&nbsp;45823</small>
-						<small class="right month font1">月办理量 </small>
+						<small class="right monthNum font2">45823</small>
+						<small class="right month font2">月办理量 &nbsp;&nbsp;</small>
 					</div>
 				</div>
 
 				<div class="clear"></div>
 
 				<div class="step">
-					<img src="images/1.png" class="step one"/>		
+					<div class="step_pic">
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page3/step1.png" class="step1"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page3/step2.png" class="step2"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page3/step3.png" class="step3"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page3/step4.png" class="step4"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page3/step5.png" class="step5"/></p>
+							
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="step_pic">
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">车主资料</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">车辆资料</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgreen font3">收货地址</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">免密支付</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">设备付款</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<br>
 				</div>
-				<div class="clear"></div>
 
 			</div>
 		</div>
@@ -40,10 +91,31 @@
 
 	<div class="mainC">
 		<div class="content">
-			<div class="margin20_0_10_0">
-				<div class="centered">
-					<button type="button" class="btn btn-height font2 ">使用微信收货地址</button>
-				</div>
+			<div class="wechat ">
+				<table width="100%" >
+					<tr>
+					<td class="pencent1"></td>
+					<td class="pencent2">
+						<div class="text-center ">
+							<button type="button" class="btn btn-height font2 ">
+							&nbsp
+							<img src="images/page3/pic_locate1.png" class="pic_locate1"/>
+							&nbsp使用微信收货地址&nbsp&nbsp
+							
+							
+							</button>
+						</div>
+					</td class="pencent1">
+					<td>
+						<div class="text-right">
+							<img src="images/page3/qa.png" class="qa" />
+						</div>
+					</td>
+					</tr>
+				
+				</table>
+				
+				
 			</div>
 
 			<div class="certificate">
@@ -54,7 +126,7 @@
 				       	 	<p class="p font2 text-justify">收货人
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input class="borderNONE font2" type="text" id="username" name="username" placeholder="柏林" />
+				       	 	<input class="borderNONE font2" type="text" id="username" name="username" placeholder="张三" />
 				        </div>
 				        <div class="clear"></div>
 
@@ -63,7 +135,7 @@
 				        	<p class="p font2 text-justify">手机号码
 				        		<span class="span-justify"></span>
 				        	</p>
-				        	<input class="borderNONE font2" type="text" name="idcard" placeholder="手机（将用于通行发票开具）" />
+				        	<input class="borderNONE font2" type="text" id="phone" name="phone" placeholder="手机（将用于通行发票开具）" />
 				     	</div>
 				     	<div class="clear"></div>
 
@@ -71,7 +143,7 @@
 				       	 	<p class="p font2 text-justify">短信验证
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input class="borderNONE font2" type="text" id="" name="username" placeholder="短信验证（必填)" />
+				       	 	<input class="borderNONE font2" type="text" id="imessage" name="imessage" placeholder="短信验证（必填)" />
 				        </div>
 				        <div class="clear"></div>
 
@@ -79,7 +151,7 @@
 				       	 	<p class="p font2 text-justify">选择地区
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input class="borderNONE font2" type="text" id="" name="username" placeholder="地区信息（必填)" />
+				       	 	<input class="borderNONE font2" type="text" id="area" name="area" placeholder="地区信息（必填)" />
 				        </div>
 				        <div class="clear"></div>
 
@@ -87,10 +159,10 @@
 				       	 	<p class="p font2 text-justify">详细地址
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input class="borderNONE font2" type="text" id="" name="username" placeholder="街道门牌信息（最多25字）"maxlength='25' />
+				       	 	<input class="borderNONE font2" type="text" id="location" name="location" placeholder="街道门牌信息（最多25字）"maxlength='25' />
 				        </div>
 				        <div class="clear"></div>
-
+						<br>
 				</div>
 				
 			</div>
@@ -112,19 +184,13 @@
 			<div class="submit">
 				<div class="centered">
 					
-					<button id="submit" class="button">开通微信免密</button>
+					<button id="submit" class="green button">开通微信免密</button>
 				</div>
-				<br>
-
-				<p class="text-center font3">
-					<a href="/ETCweChat/page1.html">
-						<small>取消申办</small>
-					</a>
-				</p>
+				
 			</div>
 	</div>
-	
 
+	<div id="bg"></div>    <!-- 遮罩层  -->
 </body>
 <script type="text/javascript" src="javascript/jquery-3.2.1.js"></script>
 <script type="text/javascript" src="js/submit_page3.js"></script>

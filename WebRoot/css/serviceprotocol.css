@@ -11,3 +11,9 @@ ul {
 	margin:0 atuo;
 	width:100%;
 }
+#body{
+	font-color:gray;
+}
+.text-indent{
+	text-indent:2em;
+}

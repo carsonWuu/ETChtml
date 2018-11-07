@@ -4,7 +4,13 @@ function picture_select1(){
 function picture_select2(){
 	 document.getElementById("input_pic2").click(); 
 }
-
+var changeSubmit=function() {
+	var username= $("#username").val();
+	var idcard= $("#idcard").val();
+	if(username!=''&&idcard!=''&&upload_pic1==true&&upload_pic2==true) {//数据不完整
+		$('#submit').attr('class','green button');
+	}
+}
 upload_pic1=false;
 upload_pic2=false;
 
@@ -55,25 +61,65 @@ $(function(){
 	 * 动态改变身份证尺寸：(两张图片)
 	 * 根据宽度进行高度适配，height=width*0.75
 	 */
+	
 	var img = $("#pic1");
 	var realWidth =img.width();//alert(realWidth);
-	var realHeight = realWidth*0.75;
+	var realHeight = realWidth*0.665;
 	img.css({height:realHeight});
 	
 	img = $("#pic2");
 	realWidth =img.width();//alert(realWidth);
-	realHeight = realWidth*0.75;
+	realHeight = realWidth*0.665;
 	img.css({height:realHeight});
 	
 	
 	$("#privateProtect").on("click",function(){
 		
-    	window.location.href='/ETCweChat/serviceprotocol.html';
+    	window.location.href='serviceprotocol.html';
 	});
 	
 	$('body').height($('body')[0].clientHeight);
 });
 
+//window.onload=function () {
+//    document.addEventListener('touchstart',function (event) {
+//        if(event.touches.length>1){
+//            event.preventDefault();
+//        }
+//    })
+//    var lastTouchEnd=0;
+//    document.addEventListener('touchend',function (event) {
+//        var now=(new Date()).getTime();
+//        if(now-lastTouchEnd<=300){
+//            event.preventDefault();
+//        }
+//        lastTouchEnd=now;
+//    },false)
+//}
+
+//window.onload = function () {
+//    document.addEventListener('gesturestart', function (e) {
+//        e.preventDefault();
+//    });
+//    document.addEventListener('dblclick', function (e) {
+//        e.preventDefault();
+//    });
+//    document.addEventListener('touchstart', function (event) {
+//        if (event.touches.length > 1) {
+//            event.preventDefault();
+//        }
+//    });
+//    var lastTouchEnd = 0;
+//    document.addEventListener('touchend', function (event) {
+//        var now = (new Date()).getTime();
+//        if (now - lastTouchEnd <= 300) {
+//            event.preventDefault();
+//        }
+//        lastTouchEnd = now;
+//    }, false);
+//};
+//
+//
 
 
 

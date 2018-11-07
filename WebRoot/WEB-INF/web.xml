@@ -32,7 +32,7 @@
   
   <servlet>
     <servlet-name>imgUpload3</servlet-name>
-    <servlet-class>com.test.servlet3</servlet-class>
+    <servlet-class>com.test.servlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>imgUpload3</servlet-name>

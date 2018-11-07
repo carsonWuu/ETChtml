@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	
     <meta charset="UTF-8">
     <title>page2</title>
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/page2.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/button_page2.css">
     <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/common.css">
     <script type="text/javascript" src="javascript/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/page2.js"></script>
 </head>
@@ -15,24 +18,73 @@
 	
 	<div class="mainH">
 		<div class="head">
-			<h1 class="Hhead text-white">新卡申办</h1>
+			<h3 class="Hhead text-white">新卡申办</h3>
 			<div class="Hcontent">
 				<div class="location">
-					<div class="locate">
-						<b class="left province font1">广东&nbsp;&nbsp;</b>
-						<b class="left Yuecard font1">粤通卡&gt;</b>		
+					<div class="locate left ">
+						<b class="left province font1">贵州&nbsp;&nbsp;</b>
+						<b class="left Yuecard font1">黔通卡&nbsp;
+							
+						</b>
+						<img src="images/page1/bigsign.png" class="bigsign"/>		
 					</div>
-					<div class="proxy text-white">
+					<div class="right proxy text-white">
 						
-						<small class="right monthNum font2">&nbsp;&nbsp;45823</small>
-						<small class="right month font2">月办理量 </small>
+						<small class="right monthNum font2">45823</small>
+						<small class="right month font2">月办理量 &nbsp;</small>
 					</div>
 				</div>
 
 				<div class="clear"></div>
 
 				<div class="step">
-					<img src="images/1.png" class="step one"/>		
+					<div class="step_pic">
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page2/step1.png" class="step1"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page2/step2.png" class="step2"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page2/step3.png" class="step3"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page2/step4.png" class="step4"/></p>
+							
+						</div>
+						<div class="width1_5 left">
+							<p class="text-center "><img src="images/page2/step5.png" class="step5"/></p>
+							
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="step_pic">
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">车主资料</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgreen font3">车辆资料</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">收货地址</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">免密支付</div>
+						</div>
+						<div class="width1_5 left">
+							
+							<div class="text-center headgray font3">设备付款</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<br>
 				</div>
 				<div class="clear"></div>
 
@@ -45,34 +97,46 @@
 	<div class="mainC">
 		<div class="content">
 			<div class="upload">
-				<p class="IDcard font2">请上传身份证&nbsp;
-					<span id="privateProtect" class="privateProtect">《用户隐私保护政策》</span>
-				</p>
+				<div class="IDcard inline">
+					<div class="left  font2">请上传身份证&nbsp;
+						<span id="privateProtect" class="privateProtect">《用户隐私保护政策》</span>
+					</div>
+					<div class="right">
+						<img src="images/page2/qa.png" id="qa" class="qa" />
+					</div>
+					<div class="clear"></div>
+				</div>
 				<p>
-					<small class="text-gray font3">交通部相关规定，办理ETC需提交身份证原件照片</small>
+					
+					<small class="text-gray font4">交通部相关规定，办理ETC需提交身份证原件照片</small>
 				</p>
 			</div>
 
 			<div class="uploadPIC">
-				<div class="left pic">
+				<div class="left pic rgbIDCARD">
 					
-					<img src="images/pic11.png" id="pic1" class="picture" onclick="picture_select1()"/>
-						
+					<img src="images/page2/pic1.png" id="pic1" class="picture" onclick="picture_select1()"/>
+					<div class="text-center headgreen font3"><b>行驶证(正页)</b></div>	
 				</div>
-				<div class="right pic">
-					<img src="images/pic12.png" id="pic2"  class="picture"  onclick="picture_select2()"/>
+				<div class="right pic rgbIDCARD">
+					<img src="images/page2/pic2.png" id="pic2"  class="picture"  onclick="picture_select2()"/>
+					<div class="text-center headgreen font3"><b>行驶证(副页)</b></div>
 				</div>
 				<div class="clear"></div>
-				<div class="left pic">
-					<img src="images/pic13.png" id="pic3"  class="picture"  onclick="picture_select3()"/>
+				<div class="left pic rgbIDCARD">
+					<img src="images/page2/pic3.png" id="pic3"  class="picture"  onclick="picture_select3()"/>
+					<div class="text-center headgreen font3"><b>车头证(含车牌)</b></div>
 				</div>
 			</div>
 			<div class="clear"></div>
 
 
-			<div class="Tencent text-gray">
-				<p class="tencent1 font2">Tencent腾讯<span class=""> | 投资</span></p>
-				<p class="tencent2 font3">交通运输部路网检测与应急处置中心 | 指导</p>
+			<div class="COM text-gray">
+				<p class="com1 font2">深圳市壹云智能科技有限公司</p>
+				<div class="text-center font3 text-gray">
+					<img src="images/page2/pic_w.png" id="pic_w" class="pic_w"/>
+					交通运输部路网检测与应急处置中心 | 指导
+				</div>
 			</div>
 
 			<div class="certificate font2">
@@ -85,15 +149,15 @@
 				       	 	<p class="p text-justify font2 text-gray">车主姓名
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="柏林" class="font2"/>
+				       	 	<input type="text" id="carusername" name="carusername" placeholder="张三" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 
 				        <div class="message">
-				        	<p class="p text-justify  font3 text-gray">车牌号码
+				        	<p class="p text-justify  font2 text-gray">车牌号码
 				        		<span class="span-justify"></span>
 				        	</p>
-				        	<input type="text" name="idcard" placeholder="粤B0PE29" class="font2"/>
+				        	<input type="text" id="idcard" name="idcard" placeholder="粤B0PE29" class="font2"/>
 				     	</div>
 				     	<div class="clear"></div>
 
@@ -101,7 +165,7 @@
 				       	 	<p class="p text-justify  font2 text-gray">车牌颜色
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="蓝牌" class="font2"/>
+				       	 	<input type="text" id="carcolor" name="carcolor" placeholder="蓝牌" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 
@@ -109,63 +173,63 @@
 				       	 	<p class="p text-justify  font2 text-gray">车辆类型
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="小型轿车" class="font2"/>
+				       	 	<input type="text" id="cartype" name="cartype" placeholder="小型轿车" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">核定载人数
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="5人" class="font2"/>
+				       	 	<input type="text" id="carnum" name="carnum" placeholder="5人" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">车辆识别码
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="LVSHCFAE1CF204731" class="font2"/>
+				       	 	<input type="text" id="carcode" name="carcode" placeholder="LVSHCFAE1CF204731" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">使用性质
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="非营运" class="font2"/>
+				       	 	<input type="text" id="carfunc" name="carfunc" placeholder="非营运" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">品牌型号
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="福克斯牌CAFY180A48" class="font2"/>
+				       	 	<input type="text" id="carmodel" name="carmodel" placeholder="福克斯牌CAFY180A48" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">发动机号码
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="CA45291" class="font2"/>
+				       	 	<input type="text" id="enginenum" name="enginenum" placeholder="CA45291" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">注册日期
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="2012.10.26" class="font2"/>
+				       	 	<input type="text" id="carredate" name="carredate" placeholder="2012.10.26" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">发证日期
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="2017.05.21" class="font2"/>
+				       	 	<input type="text" id="caropendate" name="caropendate" placeholder="2017.05.21" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 				        <div class="message">
 				       	 	<p class="p text-justify  font2 text-gray">外廓尺寸
 				       	 		<span class="span-justify"></span>
 				       	 	</p>
-				       	 	<input type="text" id="" name="username" placeholder="0x0x0mm" class="font2"/>
+				       	 	<input type="text" id="carsizes" name="carsizes" placeholder="0x0x0mm" class="font2"/>
 				        </div>
 				        <div class="clear"></div>
 
@@ -178,23 +242,19 @@
 				<button type="button" class="submit">下一步</button>
 				
 			</p> -->
-			<div class="centered">
+			
+
+		</div>
+		<footer >
+		<div class="centered">
 				
 				<button id="submit" class="green button">下一步</button>
 			</div>
-			<br>
-
-			<p class="text-center font3">
-				<a href="/ETCweChat/page1.html">
-					<small>取消申办</small>
-				</a>
-			</p>
-			<br>
-
-		</div>
+			
+		</footer>
 
 	</div>
-	
+	<div id="bg"></div>
 
 </body>
 

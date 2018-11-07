@@ -1,10 +1,7 @@
 $("#submit").click(function(){
-	var username= $("#username").val();
-	var idcard= $("#idcard").val();
-	if(username=='')return;
-	console.log(username+idcard);
 	
-    $.ajax({url:"data",success:function(result){
-    	window.location.href='/ETCweChat/page6.html';
-    }});
+	
+   
+    	window.location.href='page6.html';
+   
 });

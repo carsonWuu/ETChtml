@@ -12,7 +12,21 @@ function fileUpload(){
 	
 	var username= $("#username").val();
 	var idcard= $("#idcard").val();
-	if(username==''||idcard==''||upload_pic1==false||upload_pic2==false) {//数据不完整
+	
+	if(username==null||username=='') {//数据不完整
+		window.alert("请填写姓名");
+		return;
+	}
+	if(idcard==null||idcard=='') {//数据不完整
+		window.alert("请填写身份证号");
+		return;
+	}
+	if(upload_pic1==null||upload_pic1=='') {//数据不完整
+		window.alert("请上传身份证人像面");
+		return;
+	}
+	if(upload_pic2==null||upload_pic2=='') {//数据不完整
+		window.alert("请上传身份证国徽面");
 		return;
 	}
 	
@@ -24,11 +38,18 @@ function fileUpload(){
 		url:'imgUpload3',
 		type:'POST',
 		cache:false,
+		async:false,
 		data:formdata,
 		processData:false,
 		contentType:false,
+		beforeSend: function(){
+			$('#bg').css({'height':$(document).height(),'width':$(document).width()});
+			document.getElementById("bg").style.display ="block";
+		},	
 		success:function(result){
-    		window.location.href='/ETCweChat/page2.html';
+			
+    		window.location.href='page2.html';
+			return false;
     	}
 	});
 }

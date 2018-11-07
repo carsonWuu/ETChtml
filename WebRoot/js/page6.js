@@ -20,15 +20,15 @@ $(function(){
 	$("#protocol_service").on("click",function(){
 		
 		$("#checkbox").prop("checked", false);
-    	window.location.href='/ETCweChat/serviceprotocol.html';
+    	window.location.href='serviceprotocol.html';
 	});
 	$("#protocol_yuetongka").on("click",function(){
 		$("#checkbox").prop("checked", false);
-    	window.location.href='/ETCweChat/serviceprotocol.html';
+    	window.location.href='userprotocol.html';
 	});
 	$("#protocol_Eyuetongka").on("click",function(){
 		$("#checkbox").prop("checked", false);
-    	window.location.href='/ETCweChat/serviceprotocol.html';
+    	window.location.href='usageprotocol.html';
 	});
 	
 });

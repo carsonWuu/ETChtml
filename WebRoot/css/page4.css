@@ -23,9 +23,9 @@
             width:70%;
         }
         #submit{
-            border-radius: 2px;
+            
             width:100%;
-            background-color: green; 
+           
             margin-bottom: 10px;
         }
         
@@ -40,7 +40,7 @@
             background:rgb(255,255,255);
         }
     	.head,.mainC{
-    		margin:0 30px 60px 30px;
+    		margin:0 15px;
     	}
     	.Hhead{
     		text-align:center;
