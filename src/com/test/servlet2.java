@@ -44,7 +44,7 @@ public class servlet2 extends HttpServlet {
 	        //使用request对象的getSession()获取session，如果session不存在则创建一个
 	        HttpSession session = request.getSession();
 	        //将数据存储到session中
-	        session.setAttribute("data", "孤傲苍狼");
+	        session.setAttribute("page1", true);
 	        //获取session的Id
 	        String sessionId = session.getId();
 	        System.out.println("sesson2:"+sessionId);
